@@ -988,7 +988,6 @@ img {
 
     .footer-container {
     width: 528px;
-    margin-left: 92px;
     display: flex;
     flex-wrap: wrap;
     gap: 0 24px;
@@ -1115,8 +1114,8 @@ img {
         width: 1158px;
         display: flex;
         flex-wrap: nowrap; 
-        margin-left: 0;
         align-items: baseline;
+        gap: 0;
     }
 
     .footer-logo-container {
@@ -1126,6 +1125,7 @@ img {
 
     .footer-icon-container { 
         margin-right: 80px;
+        margin-bottom: 0;
 }
 
 }
