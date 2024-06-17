@@ -21,9 +21,12 @@
       <nav class="header-navigation">
         <a class="header-logo" href="./index.html">Web<span  class="header-logo-colored">Studio</span></a>
         <ul class="header-menu-list">
-          <li class="header-menu-item"><a class="header-menu-link header-current" href="./index.html">Studio</a></li>
-          <li class="header-menu-item"><a class="header-menu-link" href="">Portfolio</a></li>
-          <li class="header-menu-item"><a class="header-menu-link" href="">Contacts</a></li>
+          <li class="header-menu-item">
+            <a class="header-menu-link header-current" href="./index.html">Studio</a></li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Portfolio</a></li>
+          <li class="header-menu-item">
+            <a class="header-menu-link" href="">Contacts</a></li>
         </ul>
       </nav>
       <address class="header-address">
@@ -40,6 +43,57 @@
           <use href="./images/icons.svg#icon-menu-btn"></use>
         </svg>
       </button>
+      </div>
+      <div class="mob-menu">
+        <div class="mob-menu-wrap">
+          <button type="button" class="menu-close-button">
+            <svg class="mob-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav>
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link header-current" href="./index.html">Studio</a></li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Portfolio</a></li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Contacts</a></li>
+          </ul>
+          </nav>
+        </div>
+          <address class="mob-address">
+            <ul class="mob-address-list">
+              <li class="mob-address-item">
+                <a class="mob-address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="mob-address-item">
+                <a class="mob-address-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-icon-list">
+            <li class="mob-item"><a class="mob-item-link" href="">
+                <svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a></li>
+            <li class="mob-item"><a class="mob-item-link" href="">
+                <svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a></li>
+            <li class="mob-item"><a class="mob-item-link" href="">
+                <svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a></li>
+            <li class="mob-item"><a class="mob-item-link" href="">
+                <svg class="mob-social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a></li>
+          </ul>
       </div>
     </header>
     <main>
@@ -315,11 +369,9 @@
           <li class="portfolio-item">
           <div class="portfolio-overlay-image">
             <picture>
-              <source srcset="./images/img_screen.jpg 1x, ./images/img_screen-2x.jpg 2x," media="(min-width: 1158px)" />
-              <source srcset="./images/img_screen_tab.jpg 1x, ./images/img_screen_tab-2x.jpg 2x," media="(min-width: 768px)" 
-              />
-              <source srcset="./images/img_screen_mob.jpg 1x, ./images/img_screen_mob-2x.jpg 2x," media="(min-width: 320px)" 
-              />
+              <source srcset="./images/img_screen.jpg 1x, ./images/img_screen-2x.jpg 2x" media="(min-width: 1158px)" />
+              <source srcset="./images/img_screen_tab.jpg 1x, ./images/img_screen_tab-2x.jpg 2x" media="(min-width: 768px)" />
+              <source srcset="./images/img_screen_mob.jpg 1x, ./images/img_screen_mob-2x.jpg 2x" media="(min-width: 320px)" />
               <img src="./images/img_screen.jpg" alt="screen-illustrations" class="portfolio-item-image" width="360" />
             </picture>
             <p class="portfolio-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
@@ -333,12 +385,9 @@
           <li class="portfolio-item">
           <div class="portfolio-overlay-image">
             <picture>
-              <source srcset="./images/img_online.jpg 1x, ./images/img_online-2x.jpg 2x," media="(min-width: 1158px)" 
-              />
-              <source srcset="./images/img_online_tab.jpg 1x, ./images/img_online_tab-2x.jpg 2x"
-              />
-              <source srcset="./images/img_online_mob.jpg 1x, ./images/img_online_mob-2x.jpg 2x" 
-              />
+              <source srcset="./images/img_online.jpg 1x, ./images/img_online-2x.jpg 2x" media="(min-width: 1158px)" />
+              <source srcset="./images/img_online_tab.jpg 1x, ./images/img_online_tab-2x.jpg 2x" media="(min-width: 768px)"/>
+              <source srcset="./images/img_online_mob.jpg 1x, ./images/img_online_mob-2x.jpg 2x" media="(min-width: 320px)"/>
               <img src="./images/img_online.jpg" alt="online-courses" class="portfolio-item-image" width="360" />
             </picture>
             <p class="portfolio-overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
